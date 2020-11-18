@@ -12,6 +12,27 @@ ul {
 	padding: 0;
 }
 
+#scrollTop {
+	position: fixed;
+	width: 55px;
+	height: 55px;
+	left: 94%;
+	top: 90%; 
+	z-index: 999;
+	background-color: green;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0 1px .5px;
+	border-radius: 50%;
+	border: 0px;
+	opacity: .8;
+}
+
+#scrollTop:active {
+	background-color: red;
+	border: 0px;
+}
+
 .sidenav {
     height: 100%;
 	width: 0;
@@ -26,8 +47,6 @@ ul {
 	color: white;
 	opacity: .8;
   }
-  
-
 
   .sidenav a {
     padding: 4px 4px 8px 3px;
@@ -381,6 +400,18 @@ input.mail {
 		margin-right: 20px!important;
 	}
 
+	#scrollTop {
+		position: fixed;
+		width: 40px;
+		height: 40px;
+		 left: 90%;
+		top: 90%; 
+		z-index: 999;
+		background-color: green;
+		cursor: pointer;
+		box-shadow: 0 1px .5px;
+		border-radius: 50%;
+		
 	
 	.top-social a{
 		font-size: .8rem;
