@@ -2,7 +2,7 @@ var toggleBtn = document.getElementById("side-toggler");
 var scrollBtn = document.getElementById("scrollTop");
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "210px";
+    document.getElementById("mySidenav").style.width = "250px";
     toggleBtn.style.display = "none";
   }
   
@@ -14,7 +14,7 @@ function openNav() {
   }
 
   function show() {
-    if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+    if(document.body.scrollTop > 30 || document.documentElement.scrollTop > 30){
       scrollBtn.style.display ="block";
     } else {
       scrollBtn.style.display ="none";
