@@ -33,6 +33,7 @@ ul {
 }
 
 .sidenav {
+	display: block;
     height: 100%;
 	width: 0;
     position: fixed;
@@ -45,6 +46,7 @@ ul {
     transition: 0.5s;
 	color: white;
 	opacity: .8;
+	margin: 0 auto;
   }
 
   .sidenav a {
